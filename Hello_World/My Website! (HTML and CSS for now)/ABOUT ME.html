@@ -14,5 +14,28 @@
     <h1>About Me</h1>
     <p>I am Akshat. I code as a hobby. I know the fundamentals of HTML, basic CSS, and I am currently learning Python. I make gaming youtube videos too, such as Fortnite, CODM, etc.</p>
 
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAkEmPHlLu91t3oj2Ok5FUOF32kgNFEycI",
+    authDomain: "codingwithakshat.firebaseapp.com",
+    databaseURL: "https://codingwithakshat.firebaseio.com",
+    projectId: "codingwithakshat",
+    storageBucket: "codingwithakshat.appspot.com",
+    messagingSenderId: "76140384479",
+    appId: "1:76140384479:web:98a945316458ca5570996a",
+    measurementId: "G-XBSN29B4F9"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </body>
 </html>
